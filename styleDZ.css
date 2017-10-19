@@ -1,0 +1,214 @@
+.Header{
+    text-align: center;
+    background-color: darkgrey;
+    margin-bottom: 0;
+    width: 1200px;
+    height: 60px;
+    margin-left: 350px;
+}
+.numberRight{
+    padding-left: 90%;
+    margin-top: -45px;
+    font-size: 18px;
+}
+.logo{
+    padding-left: 80px;
+    background-color: pink;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 60px;
+    width: 1120px;
+    margin-left: 350px;
+}
+.logosub{
+    padding-left: 80px;
+    margin-top: -10px;
+    margin-bottom: 0;
+    border: 0;
+    background-color: pink;
+    height: 40px;
+    width: 1120px;
+    margin-left: 350px;
+}
+table{
+    padding-left: 1250px;
+    margin-top: -70px;
+    font-size: 20px;
+    border:0;
+}
+.background{
+    height: 600px;
+    width: 940px;
+    margin-left: 490px;
+    background: lightgrey;
+    display: flex;
+}
+.Title{
+    padding-left: 0;
+    font-size: 15px;
+    background-color: grey;
+    margin-top: -600px;
+    margin-bottom: 0;
+    width: 550px;
+    margin-left: 520px;
+    height: 40px;
+    text-align: center;
+}
+.Image{
+    background-color: pink;
+    margin-left: 540px;
+    margin-top: 90px;
+    font-size: 25px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+.Texttext{
+    font-size: 25px;
+    margin-left: 830px;
+    margin-top: -125px;
+    width: 100px;
+}
+.texttext{
+    font-size: 25px;
+    margin-left: 833px;
+    margin-top: 8px;
+    width: 100px;
+}
+.nav{
+    margin-left: 1150px;
+    font-size: 22px;
+    margin-top: -270px;
+    background-color: #608fff;
+    margin-right: 490px;
+    height: 350px;
+    text-align: center;
+}
+.Item1{
+    margin-left: 1180px;
+    font-size: 21px;
+    margin-top: -250px;
+}
+.Item2{
+    margin-left: 1175px;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.Item3{
+    margin-left: 1180px;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.navText{
+    padding-left: 1200px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.Title_block{
+    text-align: center;
+    background-color: pink;
+    margin-left: 520px;
+    font-size: 21px;
+    width: 250px;
+    height: 140px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+.Title_block2{
+    text-align: center;
+    background-color: pink;
+    margin-left: 800px;
+    font-size: 21px;
+    width: 250px;
+    height: 140px;
+    padding-top: 10px;
+    margin-top: -150px;
+}
+.Title_block3{
+    text-align: center;
+    background-color: pink;
+    margin-left: 1130px;
+    font-size: 21px;
+    width: 250px;
+    height: 140px;
+    padding-top: 10px;
+    margin-top: -150px;
+}
+.titleblockText{
+    font-size: 21px;
+    margin-left: 530px;
+    margin-top: -45px;
+    width: 50px;
+}
+.titleblockText2{
+    font-size: 21px;
+    margin-left: 670px;
+    margin-top: -25px;
+    width: 50px;
+}
+.titleblockText3{
+    font-size: 21px;
+    margin-left: 1140px;
+    margin-top: -45px;
+    width: 50px;
+}
+.titleblockText4{
+    font-size: 21px;
+    margin-left: 1330px;
+    margin-top: -25px;
+    width: 50px;
+}
+.logo2{
+    margin-left: 500px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    width: 870px;
+    background-color: #beff2f;
+    text-align:start;
+    height: 60px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.Title_Footer{
+    margin-left: 880px;
+    font-size: 21px;
+    width: 120px;
+    height: 30px;
+    padding-top: 20px;
+    margin-top: -75px;
+}
+div .search{
+    margin-left: 1150px;
+    margin-bottom: 0;
+    margin-top: -25px;
+    color: black;
+}
+input .search{
+    background-color: purple;
+}
+.subFooter{
+    padding-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border: 0;
+    background-color: darkblue;
+    height: 40px;
+    width: 1120px;
+    margin-left: 350px;
+    text-align: left;
+}
+.bottomtext{
+    font-size: 20px;
+    margin-left: 870px;
+    margin-top: -35px;
+    width: 100px;
+}
+.numberBottom{
+    margin-right: 0;
+    width: 1000px;
+    margin-left: 1400px;
+}
+.numberRightBottom{
+    margin-top: -22px;
+    font-size: 18px;
+}
