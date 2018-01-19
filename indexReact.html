@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <!--<style>
+        #block {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+        }
+        .text {
+            outline: none;
+        }
+    </style>-->
+    <!--
+    <style>
+        .tab_nav {
+            display: flex;
+            align-content: center;
+        }
+        .tab_nav a {
+            padding: 10px 15px;
+            border-radius: 3px;
+            outline: none;
+            display: block;
+            border: 1px solid #eaeaea;
+            font-size: 16px;
+            text-decoration: none;
+            margin-left: 15px;
+            color: black;
+        }
+        .tab_nav a.active {
+            background: black;
+
+        }
+        .tab_nav a:first-child {
+            margin-left: 0;
+        }
+        .tabContent {
+            padding: 15px 0;
+        }
+        .tabItem {
+            display: none;
+        }
+        .tabItem.show{
+            display: block;
+        }
+    </style>
+    -->
+</head>
+<body>
+<!--
+    <div class="container">
+        <p>LeftTopRadius
+            <input type="range" class="range ltr" min="0" max="100">
+            <input type="text" class="textInput1" value="0">
+        </p>
+        <p>RightTopRadius
+            <input type="range" class="range rtr" min="0" max="100">
+            <input type="text" class="textInput2" value="0">
+        </p>
+        <p>LeftBottomRadius
+            <input type="range" class="range lbr" min="0" max="100">
+            <input type="text" class="textInput3" value="0">
+        </p>
+        <p>RightBottomRadius
+            <input type="range" class="range rbr" min="0" max="100">
+            <input type="text" class="textInput4" value="0">
+        </p>
+    </div>
+    <div id="block"></div>
+    -->
+<!--
+<div class="container">
+    <div class="tab_nav">
+        <a href="#" class="item_nav active">Nav1</a>
+        <a href="#" class="item_nav">Nav2</a>
+        <a href="#" class="item_nav">Nav3</a>
+    </div>
+    <div class="tabContent">
+        <div class="tabItem show">
+            Tab Content 1
+        </div>
+        <div class="tabItem">
+            Tab Content 2
+        </div>
+        <div class="tabItem">
+            Tab Content 3
+        </div>
+    </div>
+</div>
+-->
+</body>
+<!--
+<script>
+    var input1 = document.querySelector('.ltr').value;
+    var input2 = document.querySelector('.rtr').value;
+    var input3 = document.querySelector('.lbr').value;
+    var input4 = document.querySelector('.rbr').value;
+    var inputs = document.querySelectorAll('.range');
+
+    var text1 = document.querySelector('.textInput1');
+    var text2 = document.querySelector('.textInput2');
+    var text3 = document.querySelector('.textInput3');
+    var text4 = document.querySelector('.textInput4');
+
+    var inputs = document.querySelectorAll('.range');
+    var block = document.querySelector('#block');
+    for (var i = 0; i < inputs.length; i++) {
+        inputs[i].oninput = function () {
+            switch(this.className) {
+                case "range ltr": text1.value = this.value; break;
+                case "range rtr": text2.value = this.value; break;
+                case "range lbr": text3.value = this.value; break;
+                case "range rbr": text4.value = this.value; break;
+                default: break;
+            }
+            var result = block.style.borderRadius = text1.value + 'px' + text2.value + 'px' + text3.value + 'px' + text4.value + 'px';
+        };
+    }
+</script>
+-->
+<!--
+<script>
+    var navItem = document.querySelectorAll('.tab_nav a');
+    var tabItem = document.querySelectorAll('.tabItem');
+    hideTabContent(1);
+    function hideTabContent (a) {
+        for(var i = a;i < tabItem.length; i++) {
+            tabItem[i].classList.remove('show');
+            navItem[i].classList.remove('active');
+        }
+    }
+    document.querySelector('.tab_nav').onclick = function (e) {
+        var target = e.target;
+        for(var i = 0; i < navItem.length; i++) {
+            if (target == navItem[i]){
+                showContent(i);
+            }
+        }
+    }
+    function showContent(index) {
+        hideTabContent(0);
+        tabItem[index].classList.add('show');
+        navItem[index].classList.add('active');
+    }
+</script>
+-->
+<script>
+    class Task {
+        constructor() {
+            this.title = 'my title';
+            this.done = false;
+            console.log(`состояние задачи ${this.done}`);
+        }
+        complete () {
+            this.done = true;
+        }
+    }
+    let task = new Task();
+    console.log(tesk.complete());
+</script>
+</html>
